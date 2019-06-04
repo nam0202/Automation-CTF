@@ -1,0 +1,30 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "wdio",
+    "test": "wdio"
+  },
+  "keywords": [
+    "automation",
+    "nodejs"
+  ],
+  "author": "namph",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "@types/node": "^12.0.3",
+    "@types/webdriverio": "^5.0.0",
+    "@wdio/cli": "^5.9.4",
+    "@wdio/local-runner": "^5.8.5",
+    "wdio": "^3.0.3",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "webdriverio": "^5.8.4"
+  }
+}
